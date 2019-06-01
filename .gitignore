@@ -1,0 +1,18 @@
+# ignoring hidden system files or compiled code
+.ipynb_checkpoints
+*.py[co]
+
+# ignoring the following type of files (for size reasons)
+*.csv
+*.json
+# ignoring all the files from the following directories
+backup/
+images/
+inputs/
+csv/
+json/
+tests/
+modules/
+
+# others
+.env
